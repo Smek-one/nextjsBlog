@@ -1,5 +1,6 @@
 {
   "private": true,
+  "author": "Smek-one",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

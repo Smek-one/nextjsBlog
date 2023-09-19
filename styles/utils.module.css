@@ -30,7 +30,8 @@
 }
 
 .colorInherit {
-  color: inherit;
+  color: rgb(174, 132, 132);
+  font-size: 1rem;
 }
 
 .padding1px {
