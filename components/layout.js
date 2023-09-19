@@ -36,8 +36,8 @@ export default function Layout({ children, home }) {
               priority
               src="/images/logo2.png"
               className={utilStyles.borderCircle}
-              height={200}
-              width={500}
+              height={100}
+              width={300}
               alt={name}
             />
             
@@ -56,7 +56,7 @@ export default function Layout({ children, home }) {
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/" className={utilStyles.colorInherit}>
-              Back to home &#8617; 
+              Retour à l'accueil &#8617; 
               </Link>
             </h2>
           </>
@@ -65,7 +65,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
+          <Link href="/">← Retour à l'accueil</Link>
         </div>
       )}
     </div>
