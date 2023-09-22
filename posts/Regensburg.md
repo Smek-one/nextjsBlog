@@ -1,5 +1,5 @@
 ---
-title: 'Regensburg (DE)'
+title: 'Regensburg (Allemagne)'
 date: '2023-08-23'
 ---
 

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Script from 'next/script';
+import Footer from "../components/Footer";
 
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
@@ -34,7 +35,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/logo2.png"
+              src="/images/logo3.png"
               className={utilStyles.borderCircle}
               height={100}
               width={300}
@@ -54,20 +55,18 @@ export default function Layout({ children, home }) {
                 alt={name}
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-              Retour à l'accueil &#8617; 
-              </Link>
-            </h2>
+            
           </>
         )}
       </header>
-      <main>{children}</main>
+      <main>{children}
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Retour à l'accueil</Link>
         </div>
       )}
+      </main>
+      <Footer />
     </div>
   );
 }

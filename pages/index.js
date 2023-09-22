@@ -10,9 +10,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       
       <section className={utilStyles.headingMd}>
-        <p>Blog photos</p>
-        <p>
-          Amateur de photos nature : paysages, rivières, faunes, flores...
+        <p className='intro'>
+        La nature à travers l'objectif d'un passionné
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

@@ -18,16 +18,19 @@
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  color: #DAC0A3;
+  text-decoration: underline;
 }
 
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
-  margin: 0 auto;
+  margin: 0 auto;text-align: center;
 }
 
 .borderCircle {
   border-radius: 9999px;
+  float: left;
 }
 
 .colorInherit {
@@ -51,4 +54,8 @@
 
 .lightText {
   color: #666;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-decoration-color: rgb(53, 55, 55);
 }
+
