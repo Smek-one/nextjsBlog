@@ -14,12 +14,12 @@ export default function Footer() {
           <div>
             <div className="links">
               
-                <Link href="https://twitter.com/e" rel="noopener noreferrer" className="socialLink">
+                <Link href="https://twitter.com/smek_one" rel="noopener noreferrer" className="socialLink">
                 <RiTwitterXFill />
                 </Link>
                
                
-                <Link href="https://www.instagram.com/" rel="noopener noreferrer" className="socialLink">
+                <Link href="https://www.instagram.com/tranber_bovet/" rel="noopener noreferrer" className="socialLink">
                 <SiInstagram />
                 </Link>
                 </div>

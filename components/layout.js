@@ -18,6 +18,7 @@ export default function Layout({ children, home }) {
         <meta
           name="description"
           content="Un blog photos d'un passionné"
+          lang='fr'
         />
         
         <meta name="og:title" content={siteTitle} />
@@ -35,10 +36,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/logo2.png"
+              src="/images/logo.png"
               className={utilStyles.borderCircle}
-              height={100}
-              width={300}
+              height={150}
+              width={350}
               alt={name}
             />
             
@@ -60,6 +61,7 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}
+      <div className='divide-y divide-black'></div>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Retour à l'accueil</Link>
