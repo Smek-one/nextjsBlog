@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favico.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Un blog photos d'un passionné"
         />
         
         <meta name="og:title" content={siteTitle} />
@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/logo3.png"
+              src="/images/logo2.png"
               className={utilStyles.borderCircle}
               height={100}
               width={300}

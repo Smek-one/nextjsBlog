@@ -20,7 +20,7 @@ body {
     sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background: #0F2C59;
+  background: #DAC0A3;
 }
 
 * {
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #F8F0E5;
   text-decoration: none;
 }
 
@@ -43,5 +43,19 @@ img {
 }
 
 .intro{
-  color: #F8F0E5;
+  color: #0F2C59;
+}
+
+h4{
+  color: #0F2C59;
+  text-align: center;
+}
+
+.socialLink{
+  text-align: center;
+  margin: auto 2rem;
+}
+
+.links{
+  text-align: center;
 }
