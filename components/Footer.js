@@ -19,7 +19,7 @@ export default function Footer() {
                 </Link>
                
                
-                <Link href="https://www.instagram.com/tranber_bovet/" rel="noopener noreferrer" className="socialLink">
+                <Link href="https://www.instagram.com/smek_one_pics/" rel="noopener noreferrer" className="socialLink">
                 <SiInstagram />
                 </Link>
                 </div>

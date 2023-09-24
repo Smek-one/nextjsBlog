@@ -36,10 +36,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/logo.png"
+              src="/images/logo2.png"
               className={utilStyles.borderCircle}
               height={150}
-              width={350}
+              width={400}
               alt={name}
             />
             
