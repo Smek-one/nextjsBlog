@@ -18,7 +18,7 @@ Les labyrinthes de Malaskala se divisent en deux zones principales :
 
 Les labyrinthes de Malaskala sont une destination touristique populaire en République tchèque. Ils sont appréciés pour leur beauté naturelle et leur caractère unique.
 
-![Texte alternatif](../images/Malaskala/Mala4.jpg "Titre de l'image")
+![Texte alternatif](../images/Malaskala/Mala4.JPG "Titre de l'image")
 
 Quelques conseils pour visiter les labyrinthes de Malaskala
 
