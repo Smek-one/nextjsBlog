@@ -36,11 +36,12 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/logo2.png"
+              src="/images/Smek-one-4.png"
               className={utilStyles.borderCircle}
-              height={150}
-              width={400}
+              height={200}
+              width={200}
               alt={name}
+              margin={20}
             />
             
           </>
@@ -49,10 +50,10 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/logo.png"
+                src="/images/Smek-one-4.png"
                 className={utilStyles.borderCircle}
                 height={200}
-                width={400}
+                width={200}
                 alt={name}
               />
             </Link>
@@ -61,7 +62,6 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}
-      <div className='divide-y divide-black'></div>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Retour à l'accueil</Link>

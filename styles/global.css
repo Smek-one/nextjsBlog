@@ -43,8 +43,10 @@ img {
 }
 
 .intro{
-  color: #7D8E95;
+  color: #FFBB98;
   font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: overline;
 }
 
 h4{

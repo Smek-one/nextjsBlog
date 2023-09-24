@@ -34,7 +34,7 @@
 
 .borderCircle {
   border-radius: 9999px;
-  float: left;
+  margin: 1vh auto;
 }
 
 .colorInherit {
