@@ -1,6 +1,6 @@
 ---
 title: 'Regensburg (Allemagne)'
-date: '2023-08-23'
+date: '2023-08-06'
 ---
 
 ![Texte alternatif](../images/Regensburg/reg1.JPG "Titre de l'image")
